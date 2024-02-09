@@ -1,0 +1,131 @@
+{
+    "entity_group": "cricket",
+    "entities": [
+        {
+            "name": "world_cup_score",
+            "delimiter": ",",
+            "fields": [
+                {
+                    "name": "Year",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 4
+                },
+                {
+                    "name": "Match Number",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 20
+                },
+                {
+                    "name": "City",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 18
+                },
+                {
+                    "name": "Date",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 17
+                },
+                {
+                    "name": "Winner",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 20
+                },
+                {
+                    "name": "Team 1",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 4
+                },
+                {
+                    "name": "Team 2",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 4
+                },
+                {
+                    "name": "Total Score for Team 1",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 3
+                },
+                {
+                    "name": "Total Wicket for Team 1",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 2
+                },
+                {
+                    "name": "Total Score for Team 2",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 3
+                },
+                {
+                    "name": "Total Wicket for Team 2",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 2
+                },
+                {
+                    "name": "Batting team",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 4
+                },
+                {
+                    "name": "Bowling team",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 4
+                },
+                {
+                    "name": "Over Number",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 2
+                },
+                {
+                    "name": "Runs Scored in over",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 2
+                },
+                {
+                    "name": "Runs Scored till that over",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 3
+                },
+                {
+                    "name": "Wicket Taken in over",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 1
+                },
+                {
+                    "name": "Wickets Taken till that over",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 2
+                },
+                {
+                    "name": "Winning Details",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 69
+                },
+                {
+                    "name": "Match Detail",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 75
+                }
+            ]
+        }
+    ]
+}

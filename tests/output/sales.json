@@ -1,0 +1,186 @@
+{
+    "entity_group": "sales",
+    "entities": [
+        {
+            "name": "fast_food_sales",
+            "delimiter": ",",
+            "fields": [
+                {
+                    "name": "order_id",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 4
+                },
+                {
+                    "name": "date",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 32
+                },
+                {
+                    "name": "item_name",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 15
+                },
+                {
+                    "name": "item_type",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 9
+                },
+                {
+                    "name": "item_price",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 2
+                },
+                {
+                    "name": "quantity",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 2
+                },
+                {
+                    "name": "transaction_amount",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 3
+                },
+                {
+                    "name": "transaction_type",
+                    "type": "string",
+                    "nullable": true,
+                    "length": 6
+                },
+                {
+                    "name": "received_by",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 4
+                },
+                {
+                    "name": "time_of_sale",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 9
+                }
+            ]
+        },
+        {
+            "name": "supermarket_sales",
+            "delimiter": ",",
+            "fields": [
+                {
+                    "name": "Invoice ID",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 11
+                },
+                {
+                    "name": "Branch",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 1
+                },
+                {
+                    "name": "City",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 9
+                },
+                {
+                    "name": "Customer type",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 6
+                },
+                {
+                    "name": "Gender",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 6
+                },
+                {
+                    "name": "Product line",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 22
+                },
+                {
+                    "name": "Unit price",
+                    "type": "float",
+                    "nullable": false,
+                    "precision": 4,
+                    "scale": 2
+                },
+                {
+                    "name": "Quantity",
+                    "type": "integer",
+                    "nullable": false,
+                    "precision": 2
+                },
+                {
+                    "name": "Tax 5%",
+                    "type": "float",
+                    "nullable": false,
+                    "precision": 6,
+                    "scale": 4
+                },
+                {
+                    "name": "Total",
+                    "type": "float",
+                    "nullable": false,
+                    "precision": 7,
+                    "scale": 4
+                },
+                {
+                    "name": "Date",
+                    "type": "date",
+                    "nullable": false,
+                    "format": "mm/dd/YYYY"
+                },
+                {
+                    "name": "Time",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 5
+                },
+                {
+                    "name": "Payment",
+                    "type": "string",
+                    "nullable": false,
+                    "length": 11
+                },
+                {
+                    "name": "cogs",
+                    "type": "float",
+                    "nullable": false,
+                    "precision": 5,
+                    "scale": 2
+                },
+                {
+                    "name": "gross margin percentage",
+                    "type": "float",
+                    "nullable": false,
+                    "precision": 10,
+                    "scale": 9
+                },
+                {
+                    "name": "gross income",
+                    "type": "float",
+                    "nullable": false,
+                    "precision": 6,
+                    "scale": 4
+                },
+                {
+                    "name": "Rating",
+                    "type": "float",
+                    "nullable": false,
+                    "precision": 3,
+                    "scale": 1
+                }
+            ]
+        }
+    ]
+}
